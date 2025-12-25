@@ -1,0 +1,32 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de"
+  },
+  "pages": {
+    "home": {
+      "title": "Bienvenido a tu Aplicación Web",
+      "description": "Esta es una aplicación moderna de React TypeScript con todas las últimas herramientas y mejores prácticas.",
+      "welcome": "¡Bienvenido de vuelta, {{name}}!"
+    },
+    "about": {
+      "title": "Acerca de Esta Aplicación",
+      "description": "Esta aplicación fue generada usando la herramienta webapp-template-cli, que incluye todas las herramientas modernas de desarrollo web que necesitas.",
+      "features": {
+        "title": "Características Incluidas:",
+        "react": "React 18 con TypeScript",
+        "typescript": "Soporte completo de TypeScript con modo estricto",
+        "vite": "Vite para desarrollo y construcción rápida",
+        "tailwind": "Tailwind CSS para estilos",
+        "zustand": "Zustand para manejo de estado",
+        "router": "React Router para navegación",
+        "i18n": "Internacionalización con react-i18next",
+        "eslint": "ESLint y Prettier para calidad de código"
+      }
+    }
+  },
+  "auth": {
+    "login": "Iniciar Sesión",
+    "logout": "Cerrar Sesión"
+  }
+}

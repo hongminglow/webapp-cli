@@ -1,0 +1,32 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About"
+  },
+  "pages": {
+    "home": {
+      "title": "Welcome to Your Web App",
+      "description": "This is a modern React TypeScript application with all the latest tools and best practices.",
+      "welcome": "Welcome back, {{name}}!"
+    },
+    "about": {
+      "title": "About This Application",
+      "description": "This application was scaffolded using the webapp-template-cli tool, which includes all the modern web development tools you need.",
+      "features": {
+        "title": "Features Included:",
+        "react": "React 18 with TypeScript",
+        "typescript": "Full TypeScript support with strict mode",
+        "vite": "Vite for fast development and building",
+        "tailwind": "Tailwind CSS for styling",
+        "zustand": "Zustand for state management",
+        "router": "React Router for navigation",
+        "i18n": "Internationalization with react-i18next",
+        "eslint": "ESLint and Prettier for code quality"
+      }
+    }
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout"
+  }
+}
