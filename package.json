@@ -1,11 +1,11 @@
 {
-  "name": "webapp-template-cli",
+  "name": "react-starter-template",
   "version": "1.0.0",
   "description": "A CLI tool to quickly scaffold React TypeScript web applications with modern tooling",
   "main": "index.js",
   "type": "module",
   "bin": {
-    "create-webapp-template": "./bin/create-webapp-template.js"
+    "create-webapp-template": "bin/create-webapp-template.js"
   },
   "scripts": {
     "test": "node test.js",
@@ -37,5 +37,13 @@
   },
   "engines": {
     "node": ">=16.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hongminglow/webapp-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hongminglow/webapp-cli/issues"
+  },
+  "homepage": "https://github.com/hongminglow/webapp-cli#readme"
 }
