@@ -1,8 +1,8 @@
 {
-  "name": "react-starter-template",
+  "name": "@ming99/react-starter-template",
   "version": "1.0.0",
   "description": "A CLI tool to quickly scaffold React TypeScript web applications with modern tooling",
-  "main": "index.js",
+  "main": "src/index.js",
   "type": "module",
   "bin": {
     "create-webapp-template": "bin/create-webapp-template.js"

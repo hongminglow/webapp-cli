@@ -14,7 +14,7 @@ This CLI tool generates a complete React TypeScript web application with:
 - 🌍 **i18next** for internationalization (English & Spanish included)
 - 📏 **ESLint & Prettier** pre-configured for code quality
 - 🔍 **Zod** for schema validation
-- 🎯 **Path mapping** (@/* aliases)
+- 🎯 **Path mapping** (@/\* aliases)
 - 📁 **Organized folder structure** following best practices
 
 ## 📦 Installation
@@ -22,13 +22,13 @@ This CLI tool generates a complete React TypeScript web application with:
 ### Global Installation (Recommended)
 
 ```bash
-npm install -g webapp-template-cli
+npm install -g @ming99/react-starter-template
 ```
 
 ### One-time Usage
 
 ```bash
-npx webapp-template-cli my-app-name
+npx @ming99/react-starter-template my-app-name
 ```
 
 ## 🎯 Usage
@@ -46,6 +46,11 @@ This will create a new directory `my-awesome-app` with your complete React TypeS
 ```bash
 create-webapp-template my-app --directory custom-folder
 ```
+
+## ✅ Important Note
+
+Installing this package with `npm install` will only install the CLI into `node_modules` (that’s expected).
+To scaffold a new app, you must run the CLI via `npx` or the `create-webapp-template` command.
 
 ## 📁 Generated Project Structure
 
@@ -125,31 +130,37 @@ npm run format
 ## ⚙️ Pre-configured Tools
 
 ### State Management (Zustand)
+
 - Global app store with persistence
 - Type-safe state management
 - Custom hooks for state access
 
 ### Routing (React Router)
+
 - Declarative route configuration
 - Simple navigation setup
 - Ready for complex routing scenarios
 
 ### Styling (Tailwind CSS)
+
 - Latest Tailwind CSS with shadcn/ui-compatible configuration
 - Custom color palette and design tokens
 - Responsive design utilities
 
 ### Internationalization (i18next)
+
 - Multi-language support out of the box
 - Language detection and persistence
 - Ready-to-use English and Spanish translations
 
 ### Code Quality
+
 - ESLint with React and TypeScript rules
 - Prettier for consistent code formatting
 - Pre-commit hooks ready for integration
 
 ### API Layer
+
 - Zod schemas for runtime validation
 - Type-safe API service layer
 - Error handling patterns
@@ -180,10 +191,10 @@ The Zustand store is easily extensible:
 // In src/stores/appStore.ts
 interface AppStore extends AppState {
   // Add new state
-  newProperty: string
-  
+  newProperty: string;
+
   // Add new actions
-  setNewProperty: (value: string) => void
+  setNewProperty: (value: string) => void;
 }
 ```
 
